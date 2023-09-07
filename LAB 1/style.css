@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.cv-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #468F92;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+}
+.left-column .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.left-column .contact-info h2 {
+    margin-top: 20px;
+}
+
+.right-column {
+    flex: 3;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+}
+.class-info{
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+ul li{
+    line-height: 1.5;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+#leadership ul li{
+    list-style-type: disc;
+ 
+}
+#education ul li{
+    list-style-type: disc;
+ 
+}
+
+
+#skills {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#skills ul {
+   
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#skills li {
+    background-color:  #8cd2c1;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+#skills li:hover {
+    background-color: teal; 
+    color: white;
+}
+.contact-info {
+    line-height: 1;
+    
+}
+
+.contact-info h2 {
+    font-size: 1.5em; 
+    margin-bottom: 10px; 
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0; 
+}
+#projects {
+    line-height: 1; 
+}
+
+#projects h2 {
+    font-size: 1.5em; 
+    margin-bottom: 10px; 
+}
+
+#projects ul {
+    list-style-type: none; 
+    padding-left: 20px; 
+}
+
+#projects li {
+    margin-bottom: 5px; 
+}
+
+#projects h3 {
+    font-size: 1.2em; 
+    margin-top: 3px; 
+}
+
+#projects p {
+    margin: 5px 0; 
+}
+.communication ul li{
+    list-style-type: square;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+hr {
+    border: none; 
+    border-top: 2px solid #000; 
+    margin: 10px 0; 
+    width: 70%;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
