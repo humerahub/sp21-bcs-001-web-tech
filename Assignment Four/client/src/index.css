@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab&family=Source+Sans+Pro:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
